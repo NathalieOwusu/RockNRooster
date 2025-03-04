@@ -9,12 +9,14 @@ function About() {
         <img 
           src={AboutUs} 
           alt="female-bartender" 
-          className="me-3"
+          className="me-3 rounded"
           style={{ width: "500px", height: "auto" }}
         />
-        <h1 className="display-4 fw-bold text-danger position-relative" style={{ margin:'0px'}}>
-          About Rock ‘N’ Rooster Saloon
-        </h1>
+        <h1 className="display-5.5 fw-bold text-danger position-relative d-flex align-items-center" 
+    style={{ marginTop: '0px', top: '-300px', right: '-60px', padding: '0px' }}>
+    About Rock ‘N’ Rooster Saloon
+</h1>
+
       </div>
 
       {/* Content Section */}

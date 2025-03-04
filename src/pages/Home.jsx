@@ -21,7 +21,7 @@ function Home(){
             autoPlay 
             muted 
             loop 
-            className="w-100 vh-100 object-fit-cover">
+            className="w-100 vh-100 object-fit-cover position-relative">
             <source src={HeroVideo} type="video/mp4" />
             </video>
                 <div className="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
@@ -53,7 +53,7 @@ function Home(){
                     </Link>
                 </div>
             </div>
-        // </div>
+         </div>
     )
 }
 export default Home;

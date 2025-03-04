@@ -1,1 +1,4 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+.nav-link:hover {
+    background-color: #dc3545; /* or any color of your choice */
+}

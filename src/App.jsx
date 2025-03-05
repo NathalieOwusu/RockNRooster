@@ -7,13 +7,13 @@ import Events from "./pages/Events";
 import Gallery from "./pages/Gallery";
 import Reservations from "./pages/Reservations";
 import Contact from "./pages/Contact";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+// import Navbar from "./components/Navbar";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -23,7 +23,7 @@ function App() {
         <Route path="/reservations" element={<Reservations />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

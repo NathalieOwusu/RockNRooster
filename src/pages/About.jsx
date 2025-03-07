@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AboutUs from "../images/AboutUs.jpg";
 import AboutUs2 from "../images/AboutUs2.jpg";
 import { Link } from "react-router-dom"
 
 
 function About() {
+  useEffect(() => {
+    document.body.classList.add("bodyAboutPage");
+    return () => {
+      document.body.classList.remove("bodyAboutPage");
+    };
+  }, []);
   return (
     <>
 <div className="position-relative"style={{ overflowX: 'hidden'}}>

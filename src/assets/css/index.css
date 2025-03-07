@@ -1,10 +1,28 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
 .nav-link:hover {
     background-color: #dc3545; /* or any color of your choice */
 }
- .bodyAboutPage , body{
+
+.bodyAboutPage {
     background-color: black !important;
     color: white;
-    
-    }
-    
+}
+
+.bodyMenuPage {
+background: hsla(290, 67%, 4%, 1) !important;
+background: radial-gradient(circle, hsla(290, 67%, 4%, 1) 50%, hsla(266, 75%, 55%, 1) 100%) !important;
+background: -moz-radial-gradient(circle, hsla(290, 67%, 4%, 1) 50%, hsla(266, 75%, 55%, 1) 100%) !important;
+background: -webkit-radial-gradient(circle, hsla(290, 67%, 4%, 1) 50%, hsla(266, 75%, 55%, 1) 100%) !important;
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0d030f", endColorstr="#8338e3", GradientType=1 );
+}
+.img-scale {
+    width: 500px;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+  }
+  
+  .img-scale:hover {
+    transform: scale(1.3);
+  }
+  

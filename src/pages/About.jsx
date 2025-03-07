@@ -60,16 +60,23 @@ function About() {
         </font>
 </div>
 
-      <div className="my-5 text-end">
-        <h2 className="display-4 fw-bold">The Saloon Experience</h2>
-        <p>
-          {/* After three years of renovations, co-owners <strong>Cole Burgess</strong> and <strong>Jared Curvin</strong> transformed the space into a multi-level venue catering to all. */}
-        </p>
-        <p>
-          Our main floor features a dance floor, live bands, and a rustic bar serving up signature drinks. With tic-tac-toe at every table and vinyl-covered walls, we blend nostalgia with excitement.
-        </p>
+      <div className="my-5 text-end position-relative">
+        <h2 className="display-4 fw-bold position-relative" style={{ bottom:'510px'}}>The Saloon Experience</h2>
+        <div className="my-5 text-end position-relative d-flex justify-content-end">
+    <p className="lead text-muted position-relative text-end" style={{ margin:'-50px', padding:'-10px', top:'-500px', left:'-60px' }}>
+          Our main floor features a dance floor, live bands, and a rustic bar  </p></div>
+          <div className="my-5 text-end position-relative d-flex justify-content-end">
+    <p className="lead text-muted position-relative text-end" style={{ margin:'-50px', padding:'-15px', top:'-510px', left:'-100px' }}>
+    serving up signature drinks. With tic-tac-toe at every table  </p></div>
+    <div className="my-5 text-end position-relative d-flex justify-content-end">
+    <p className="lead text-muted position-relative text-end" style={{ margin:'-50px', padding:'-15px', top:'-518px', left:'-80px' }}>
+    and vinyl-covered walls, we blend nostalgia with excitement.</p></div>
       </div>
-
+      <div className='position-relative d-flex' style={{ margin:'-80px', padding:'-30px', right:'-590px', top:'-500px' }}>
+<font size='9'
+        color='black' >*********************************
+        </font>
+</div>
       <div className="my-5 text-end">
         <h2 className="display-4 fw-bold">The 1888 Cocktail Lounge</h2>
         <p>

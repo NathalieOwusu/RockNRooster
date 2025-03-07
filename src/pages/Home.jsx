@@ -21,7 +21,7 @@ function Home() {
                 {/* Content */}
                 <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
                     <h1 className="display-3 fw-bold">Welcome to Rock 'N' Rooster Saloon</h1>
-                    <p className="lead">Experience the best live music, drinks, and food in town!</p>
+                    <p className="lead position-relative" style={{ bottom:'-40px'}}><i>Experience the best live music, drinks, and food in town!</i></p>
 
                     {/* Logo */}
                     <div>
@@ -45,7 +45,7 @@ function Home() {
 
                     {/* Button */}
                     <Link to="/reservations">
-                    <button className="border-0 bg-danger text-white rounded-pill px-4 py-2 shadow-sm transition-all position-relative shadow-lg hover-shadow-white">Book Now  </button>
+                    <button className="border-0 bg-danger text-white rounded-pill px-4 py-2 shadow-sm transition-all position-relative shadow-lg hover-shadow-white" style={{ bottom:'-70px'}}>Book Now  </button>
                     </Link>
                 </div>
             </div>

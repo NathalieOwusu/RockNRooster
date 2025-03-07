@@ -7,6 +7,7 @@ import Events from "./pages/Events";
 import Gallery from "./pages/Gallery";
 import Reservations from "./pages/Reservations";
 import Contact from "./pages/Contact";
+import OnlineOrder from "./pages/onlineOrder";
 // import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/reservations" element={<Reservations />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/onlineOrder" element={<OnlineOrder />} />
       </Routes>
       {/* <Footer /> */}
     </>

@@ -50,43 +50,38 @@ function Menu() {
          {/* Button */}
          <Link to="/reservations">
   <button
-    className="border-0 text-white rounded-pill px-4 py-2 shadow-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-300"
-    style={{ 
-      position: 'relative', 
-      bottom: '-195px', 
-      left: '-850px', 
-      backgroundColor: '#664FC5', 
+    className=" border-0 text-white rounded-pill px-4 py-2 shadow-lg"
+    style={{
+      position: 'relative',
+      bottom: '-195px',
+      left: '-850px',
+      backgroundColor: '#491E7A',
       fontSize: '0.875rem',
-      whiteSpace: 'nowrap'
+      whiteSpace: 'nowrap',
     }}
   >
-    Download Menus
+      Download Menus
   </button>
 </Link>
 
 
-<Link to="/contact">
+<Link to="/onlineOrder">
   <button
-    className="border-0 text-white rounded-pill px-4 py-2 shadow-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-300"
+    className="border-0 text-white rounded-pill px-4 py-2 shadow-lg"
     style={{ 
       position: 'relative', 
       bottom: '-190px', 
       left: '-410px', 
-      backgroundColor: '#664FC5', 
+      backgroundColor: '#491E7A', 
       fontSize: '0.875rem',
       whiteSpace: 'nowrap'
     }}
   >
-    Order Now
+    Order Online
   </button>
 </Link>
 
         </div>
-         {/* Footer Overlay */}
-  {/* <footer className="position-relative margin-bottom-0 w-100 text-center text-white py-2" style={{ zIndex: 10, top:'-100px'}}>
-                <p>&#169; 2025 Rock N Rooster Saloon. All rights reserved.</p>
-                <p>Created by Nathalie Owusu</p>
-            </footer> */}
       </div>
     </>
   );

@@ -48,7 +48,7 @@ function Menu() {
             style={{ width: "510px", height: "auto", top:'-120px', right:'-70px' }}
           />
          {/* Button */}
-         <Link to="/reservations">
+         
   <button
     className=" border-0 text-white rounded-pill px-4 py-2 shadow-lg"
     style={{
@@ -59,10 +59,21 @@ function Menu() {
       fontSize: '0.875rem',
       whiteSpace: 'nowrap',
     }}
+ onClick={() => {
+    const link = document.createElement('a');
+    link.href = 'src/images/MenuPic2.jpg';   
+    link.download = 'Rock N Rooster Menu';
+    link.click();
+    // Second download link
+    const link2 = document.createElement('a');
+    link2.href = 'src/images/MenuPic.jpg'; 
+    link2.download = '1888 Menu'; 
+    link2.click();
+  }}
   >
       Download Menus
   </button>
-</Link>
+
 
 
 <Link to="/onlineOrder">

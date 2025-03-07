@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import AboutUs from "../images/AboutUs.jpg";
 import AboutUs2 from "../images/AboutUs2.jpg";
 import { Link } from "react-router-dom"
-import Footer from "../components/Footer"
+
 
 function About() {
   return (
     <>
-<div style={{ overflowX: 'hidden' }}>
+<div className="position-relative"style={{ overflowX: 'hidden'}}>
+
+
 <nav className="navbar navbar-expand-lg position-absolute w-100" style={{ zIndex: 100, top: 0, left: '0px', right: '70px' }}>
             
  
@@ -111,17 +113,32 @@ function About() {
 </div>   
       
 
-      <div className="my-5 text-end">
-        <h2 className="display-6 fw-bold">More Than a Bar</h2>
-        <p>
-          Beyond nightlife, we’re a community staple with weekly specials, live entertainment, and an upcoming restaurant.
-        </p>
-        <p>
-          As the official afterparty spot for <strong>Jax State athletics</strong>, Rock ‘N’ Rooster is where great times and lasting memories are made. Join us!
-        </p>
+<div className="my-5 text-end position-relative">
+<h2 className="display-6 fw-bold position-relative" style={{ bottom:'445px', left:'-130px'}}>More Than a Bar</h2>
+<div className="my-5 text-end position-relative d-flex justify-content-end">
+<p className="lead  position-relative text-end" style={{ margin:'-50px', padding:'-10px', top:'-420px', left:'-60px' }}>
+          Beyond nightlife, we’re a community staple with weekly specials, </p></div> 
+          <div className="my-5 text-end position-relative d-flex justify-content-end">
+          <p className="lead  position-relative text-end" style={{ margin:'-50px', padding:'-10px', top:'-420px', left:'-145px' }}>
+          live entertainment, and an upcoming restaurant.
+        </p></div> 
+        <div className="my-5 text-end position-relative d-flex justify-content-end">
+        <p className="lead  position-relative text-end" style={{ margin:'-50px', padding:'-10px', top:'-415px', left:'-130px' }}>
+          As the official afterparty spot for <strong>Jax State athletics</strong>,</p></div>
+          <div className="my-5 text-end position-relative d-flex justify-content-end">
+<p className="lead  position-relative text-end" style={{ margin:'-50px', padding:'-10px', top:'-410px', left:'-40px' }}>
+           Rock ‘N’ Rooster is where great times and lasting memories are made. </p></div>
+           <div className="my-5 text-end position-relative d-flex justify-content-end">
+<p className="text-danger position-relative text-end" style={{ margin:'-50px', padding:'-10px', top:'-410px', left:'-265px' }}>
+         <i>COME ON DOWN!</i> 
+        </p></div>
       </div>
     </div>
-  <Footer />
+  {/* Footer Overlay */}
+  <footer className="position-relative bottom-0 w-100 text-center text-white py-2" style={{ zIndex: 10, top:'-200px'}}>
+                <p>&#169; 2025 Rock N Rooster Saloon. All rights reserved.</p>
+                <p>Created by Nathalie Owusu</p>
+            </footer>
 </div>
 </>
   )

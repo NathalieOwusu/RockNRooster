@@ -10,7 +10,6 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       css: {
-        // Add global CSS options here if needed
       },
     },
   },

@@ -1,11 +1,16 @@
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  // any other necessary Vite config options
+  plugins: [
+    react({
+      include: '**/*.{jsx,tsx}',
+    }),
+  ],
   css: {
     preprocessorOptions: {
       css: {
-        // if needed, configure global CSS options here
+        // Add global CSS options here if needed
       },
     },
   },

@@ -135,7 +135,7 @@ function About() {
       </div>
     </div>
   {/* Footer Overlay */}
-  <footer className="position-relative bottom-0 w-100 text-center text-white py-2" style={{ zIndex: 10, top:'-200px'}}>
+  <footer className="position-relative margin-bottom-0 w-100 text-center text-white py-2" style={{ zIndex: 10, top:'-200px'}}>
                 <p>&#169; 2025 Rock N Rooster Saloon. All rights reserved.</p>
                 <p>Created by Nathalie Owusu</p>
             </footer>

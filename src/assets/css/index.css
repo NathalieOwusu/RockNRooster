@@ -2,3 +2,8 @@
 .nav-link:hover {
     background-color: #dc3545; /* or any color of your choice */
 }
+ .bodyAboutPage , body{
+    background-color: black !important;
+    color: white;
+    }
+    

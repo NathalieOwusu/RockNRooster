@@ -14,7 +14,7 @@ function Menu() {
   return (
     <>
       <div className="position-relative" style={{ overflowX: 'hidden' }}>
-        <nav className="navbar navbar-expand-lg position-relative w-100" style={{ zIndex: 100, top: '-30px', left: '0px', right: '70px' }}>
+        <nav className="navbar navbar-expand-lg position-relative w-100 cursor-pointer" style={{ zIndex: 100, top: '-30px', left: '0px', right: '70px' }}>
           <div>
             {/* Navigation Links */}
             <ul className="navbar-nav d-flex justify-content-center align-items-center m-0 position-relative" style={{ marginTop: '0px', padding: '30px', right: '-700px' }}>

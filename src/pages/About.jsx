@@ -16,7 +16,7 @@ function About() {
 <div className="position-relative"style={{ overflowX: 'hidden'}}>
 
 
-<nav className="navbar navbar-expand-lg position-absolute w-100" style={{ zIndex: 100, top: 0, left: '0px', right: '70px' }}>
+<nav className="navbar navbar-expand-lg position-absolute w-100 cursor pointer" style={{ zIndex: 100, top: 0, left: '0px', right: '70px' }}>
             
  
             <div>

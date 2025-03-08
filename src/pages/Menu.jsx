@@ -14,7 +14,7 @@ function Menu() {
   return (
     <>
       <div className="position-relative" style={{ overflowX: 'hidden' }}>
-        <nav className="navbar navbar-expand-lg position-relative w-100" style={{ zIndex: 100, top: '-30px', left: '0px', right: '70px' }}>
+        <nav className="navbar navbar-expand-lg position-relative w-100 cursor-pointer" style={{ zIndex: 100, top: '-30px', left: '0px', right: '70px' }}>
           <div>
             {/* Navigation Links */}
             <ul className="navbar-nav d-flex justify-content-center align-items-center m-0 position-relative" style={{ marginTop: '0px', padding: '30px', right: '-700px' }}>
@@ -45,8 +45,10 @@ function Menu() {
             src={RRMenu} 
             alt="Rock N Rooster Menu" 
             className="me-3 position-relative shadow-lg p-1 img-scale rounded"
-            style={{ width: "510px", height: "auto", top:'-120px', right:'-70px' }}
+            style={{ width: "510px", height: "auto", top:'-120px', right:'-110px' }}
           />
+
+
          {/* Button */}
          
   <button
@@ -54,7 +56,7 @@ function Menu() {
     style={{
       position: 'relative',
       bottom: '-195px',
-      left: '-850px',
+      left: '-810px',
       backgroundColor: '#491E7A',
       fontSize: '0.875rem',
       whiteSpace: 'nowrap',
@@ -82,7 +84,7 @@ function Menu() {
     style={{ 
       position: 'relative', 
       bottom: '-190px', 
-      left: '-410px', 
+      left: '-370px', 
       backgroundColor: '#491E7A', 
       fontSize: '0.875rem',
       whiteSpace: 'nowrap'
